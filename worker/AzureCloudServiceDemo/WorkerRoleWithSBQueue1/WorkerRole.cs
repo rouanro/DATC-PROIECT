@@ -32,12 +32,25 @@ namespace WorkerRoleWithSBQueue1
                     try
                     {
                         // Process the message
+                        string[] info = { "", "" };
+                        int i = 0;
                         Stream receivedMessageStream = receivedMessage.GetBody<Stream>();
                         StreamReader reader = new StreamReader(receivedMessageStream);
                         string receivedMessageString = reader.ReadToEnd();
-                        string text = System.IO.File.ReadAllText(@"C:\Users\Maghis\Desktop\Facultate\sht.txt");
-                        string newText = text + "\r\n" + receivedMessageString;
-                        System.IO.File.WriteAllText(@"C:\Users\Maghis\Desktop\Facultate\date.txt", newText);
+                        string[] split = receivedMessageString.Split(new Char[] { ' ', ',', '.', ':', '\t' });
+                        string text = System.IO.File.ReadAllText(@"C:\Users\Maghis\Desktop\Facultate\date.txt");
+                        
+                        foreach (string s in split)
+                        {
+                            if (s.Trim() != "")
+                            {
+                                info[i] = s;
+                                i++;
+                            }
+                        }
+                        text = text + "\r\ntemp: " + info[0];
+                        text = text + " umid: " + info[1];
+                        System.IO.File.WriteAllText(@"C:\Users\Maghis\Desktop\Facultate\date.txt", text);
                         Console.WriteLine("Received message: " + receivedMessage.ToString());
                         Trace.WriteLine("Processing Service Bus message: " + receivedMessage.SequenceNumber.ToString());
                     }

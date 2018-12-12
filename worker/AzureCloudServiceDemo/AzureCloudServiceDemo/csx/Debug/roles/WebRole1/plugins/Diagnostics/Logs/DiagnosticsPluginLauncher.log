@@ -1,0 +1,17 @@
+DiagnosticsPluginLauncher.exe Information: 0 : [12-Dec-18 13:47:52] Emulator config file set to C:\Users\Maghis\source\repos\AzureCloudServiceDemo\AzureCloudServiceDemo\csx\Debug\roles\WebRole1\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [12-Dec-18 13:47:52] DiagnosticsStoreRootPath set to: C:\Users\Maghis\AppData\Local\dftmp\Resources\206c3e6b-c597-41e3-b120-a5c619e4e76e
+DiagnosticsPluginLauncher.exe Information: 0 : [12-Dec-18 13:47:52] Loading config file: C:\Users\Maghis\source\repos\AzureCloudServiceDemo\AzureCloudServiceDemo\csx\Debug\roles\WebRole1\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [12-Dec-18 13:47:52] Config file to read: C:\Users\Maghis\source\repos\AzureCloudServiceDemo\AzureCloudServiceDemo\csx\Debug\roles\WebRole1\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [12-Dec-18 13:47:52] Checking VM Type
+DiagnosticsPluginLauncher.exe Information: 0 : [12-Dec-18 13:47:52] Emulator config file set to C:\Users\Maghis\source\repos\AzureCloudServiceDemo\AzureCloudServiceDemo\csx\Debug\roles\WebRole1\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [12-Dec-18 13:47:52] Extension set to Emulator Mode
+DiagnosticsPluginLauncher.exe Information: 0 : [12-Dec-18 13:47:52] Reading XML configuration file
+DiagnosticsPluginLauncher.exe Information: 0 : [12-Dec-18 13:47:52] Bypassing private config decryption
+DiagnosticsPluginLauncher.exe Information: 0 : [12-Dec-18 13:47:52] Stopping the running plugin, if any
+DiagnosticsPluginLauncher.exe Information: 0 : [12-Dec-18 13:47:52] No DiagnosticsPlugin is running.
+DiagnosticsPluginLauncher.exe Information: 0 : [12-Dec-18 13:47:52] Killing any DiagnosticsPlugin that might remain.
+DiagnosticsPluginLauncher.exe Information: 0 : [12-Dec-18 13:47:52] Killing any MonAgentHost that might remain.
+DiagnosticsPluginLauncher.exe Information: 0 : [12-Dec-18 13:47:52] Diagnostics plugin stopped successfully
+DiagnosticsPluginLauncher.exe Information: 0 : [12-Dec-18 13:47:52] Resetting DiagnosticPlugin
+DiagnosticsPluginLauncher.exe Information: 0 : [12-Dec-18 13:49:03] DiagnosticsPlugin launched successfully with new configuration
+DiagnosticsPluginLauncher.exe Information: 0 : [12-Dec-18 13:49:03] DiagnosticPlugin exited with code 0
